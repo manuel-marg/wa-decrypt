@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-media-decrypt",
+  "version": "1.0.0",
+  "description": "Microservice to download and decrypt WhatsApp media (.enc) directly from CDN to Base64 using mediaKey and HKDF-SHA256",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "decrypt",
+    "media",
+    "mediaKey",
+    "n8n",
+    "whatsapp-web.js",
+    "wwebjs",
+    "aes-256-cbc",
+    "hkdf"
+  ],
+  "author": "manuel-marg",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
